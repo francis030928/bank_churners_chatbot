@@ -1,9 +1,9 @@
 
 import streamlit as st 
-# from sklearn.decomposition import PCA
+from sklearn.decomposition import PCA
 import pandas as pd
 import numpy as np
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
